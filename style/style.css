@@ -307,19 +307,6 @@ body {
   color: #f59b00;
 }
 
-.btn1 {
-  font-weight: 500;
-  color: #f59b00;
-  border: 1px solid rgba(245, 155, 0, 0.2);
-  padding: 15px 30px;
-  border-radius: 5px;
-}
-
-.button{
-  display: flex;
-  padding: 75px 488px 130px;
-}
-
 /* ----------------- Header ----------------------*/
 
 .header {
@@ -514,7 +501,7 @@ body {
 
 .catalog-main {
   width: auto;
-  height: 700.77px;
+  height: 700px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -566,3 +553,4 @@ body {
   margin: 55px 44px 0 44px;
   filter: drop-shadow(0px 8px 40px rgba(47, 47, 47, 0.2));
 }
+
