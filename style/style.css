@@ -546,7 +546,7 @@ body {
   background: #ebf4bf;
 }
 
-.catalog-bag{
+.catalog-bag {
   width: 177px;
   height: 251px;
   object-fit: cover;
@@ -554,3 +554,54 @@ body {
   filter: drop-shadow(0px 8px 40px rgba(47, 47, 47, 0.2));
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 49px;
+  font-weight: 500;
+  color: #f59b00;
+  border-radius: 5px;
+  border: 1px solid rgba(245, 155, 0, 0.2);
+  margin: 0px 488px 100px;
+}
+
+/* ----------------- Search ----------------------*/
+
+.main-search {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 549px;
+  background: rgba(47, 47, 47, 0.95);
+  border-radius: 10px;
+  
+}
+
+.man_bag{
+  width: 492px;
+  height: auto;
+  opacity: .5;
+}
+
+.search-content{
+  background: url(../img/serach_bg.webp) no-repeat;
+  width: 658px;
+  height: auto;
+}
+
+.seacrh_heading{
+  width: 447px;
+  height: 81px;
+  font-size: 31px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.4;
+  color: #fff;
+  margin: 104px  137px 44px 70px;
+}
+
+.text-area{
+  background: #000;
+}
