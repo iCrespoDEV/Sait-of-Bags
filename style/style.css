@@ -294,7 +294,6 @@ body {
 }
 
 .btn {
-  font-size: 16px;
   font-weight: 500;
   background: #f59b00;
   color: #fff;
@@ -306,6 +305,19 @@ body {
 .btn-primary:hover {
   background: #fff no-repeat border-box;
   color: #f59b00;
+}
+
+.btn1 {
+  font-weight: 500;
+  color: #f59b00;
+  border: 1px solid rgba(245, 155, 0, 0.2);
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+.button{
+  display: flex;
+  padding: 75px 488px 130px;
 }
 
 /* ----------------- Header ----------------------*/
@@ -465,6 +477,7 @@ body {
   left: -28px;
   object-fit: cover;
   margin-top: 75px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .content-text {
@@ -507,44 +520,49 @@ body {
   flex-wrap: wrap;
 }
 
-.item{
+.item {
   width: 264px;
   height: 273px;
-  opacity: 0.5;
   mix-blend-mode: normal;
   border-radius: 10px;
 }
 
-
 .item_1 {
-  background: #FFE1E8;
+  background: #ffe1e8;
 }
 
 .item_2 {
-  background: #FFE1E8;
+  background: #ffe1e8;
 }
 
 .item_3 {
-  background: #F9DCFF;
+  background: #f9dcff;
 }
 
 .item_4 {
-  background: #FFDEE7;
+  background: #ffdee7;
 }
 
 .item_5 {
-  background: #ECF1FF;
+  background: #ecf1ff;
 }
 
 .item_6 {
-  background: #FADADE;
+  background: #fadade;
 }
 
 .item_7 {
-  background: #FADADE;
+  background: #fadade;
 }
 
 .item_8 {
-  background: #EBF4BF;
+  background: #ebf4bf;
 }
 
+.catalog-bag{
+  width: 177px;
+  height: 251px;
+  object-fit: cover;
+  margin: 55px 44px 0 44px;
+  filter: drop-shadow(0px 8px 40px rgba(47, 47, 47, 0.2));
+}
