@@ -329,6 +329,12 @@ body {
   border: 1px #f59b00 solid;
 }
 
+.btn_chekbox{
+  background: #f59b00;
+  color: #fff;
+  margin-left: 80px;
+}
+
 /* ----------------- Header ----------------------*/
 
 .header {
@@ -658,5 +664,4 @@ body {
 .address {
   padding: 30px 0 30px 0;
 }
-
 
