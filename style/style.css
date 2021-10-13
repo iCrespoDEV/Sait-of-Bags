@@ -329,7 +329,7 @@ body {
   border: 1px #f59b00 solid;
 }
 
-.btn_chekbox{
+.btn_chekbox {
   background: #f59b00;
   color: #fff;
   margin-left: 80px;
@@ -665,3 +665,19 @@ body {
   padding: 30px 0 30px 0;
 }
 
+/* ----------------- Brands ----------------------*/
+
+.brands{
+  padding: 130px 0 130px 0;
+}
+
+.brands_img{
+  width: 264px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.brands_content{
+  display: flex;
+  justify-content: space-between;
+}
