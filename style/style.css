@@ -426,9 +426,9 @@ body {
   margin-top: -40px;
 }
 
-.section_gradient{
+.section_gradient {
   color: #8a8a8a;
-  background: url(../img/Acuarela.png) -162% 50% ;
+  background: url(../img/Acuarela.png) -162% 50%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -691,18 +691,24 @@ body {
 
 /* ----------------- Footer ----------------------*/
 
-.footer{
+.footer {
   width: 100%;
   height: 368px;
-  background: #2F2F2F;
+  background: #2f2f2f;
 }
 
-.footer_main{
+.footer_main {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 97px 0 97px 0;
 }
 
-
-
+.logo {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30.7112px;
+  background: url(../img/Acuarela.png) 0% 27%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
